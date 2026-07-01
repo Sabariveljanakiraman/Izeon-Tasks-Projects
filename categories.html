@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VELMART - Categories</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">VEL<span>MART</span></div>
+    <nav id="navMenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-right">
+      <a href="cart.html" class="cart-icon">🛒<span class="cart-count" id="cartCount">0</span></a>
+      <button class="menu-toggle" id="menuBtn" onclick="toggleMenu()">☰</button>
+    </div>
+  </header>
+
+  <h2 class="section-title">Shop by Category</h2>
+
+  <div class="category-buttons">
+    <button class="cat-btn active" id="catBtnAll" onclick="filterCategory('All')">All</button>
+    <button class="cat-btn" id="catBtnFiction" onclick="filterCategory('Fiction')">Fiction</button>
+    <button class="cat-btn" id="catBtnNon-Fiction" onclick="filterCategory('Non-Fiction')">Non-Fiction</button>
+    <button class="cat-btn" id="catBtnSelf-Help" onclick="filterCategory('Self-Help')">Self-Help</button>
+    <button class="cat-btn" id="catBtnKids" onclick="filterCategory('Kids')">Kids</button>
+    <button class="cat-btn" id="catBtnComics" onclick="filterCategory('Comics')">Comics</button>
+  </div>
+
+  <div class="product-grid" id="categoryGrid"></div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-col">
+        <h4>VELMART</h4>
+        <p>Your favourite online book shop. Read more, explore more.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="categories.html">Categories</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p>📞 91-1223344556</p>
+        <p>✉️ dumy123tech@gmail.com</p>
+        <p>📍 Madurai, Tamilnadu</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 VELMART. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    filterCategory('All');
+  </script>
+</body>
+</html>

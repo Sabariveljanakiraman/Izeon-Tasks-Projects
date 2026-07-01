@@ -1,0 +1,61 @@
+VELMART - Image Links Used In This Project
+=============================================
+
+I could not download real image files into this folder, so here are
+the direct links to every image used in the website. These are
+placeholder images from picsum.photos (a free random image service).
+They will load automatically in the img tags as long as the computer
+running the website has internet access.
+
+If you want, you can download these yourself and save them in this
+"assets" folder with the same names, then just change the "img" path
+in js/data.js and the "background-image" in css/style.css to point to
+your local files instead (example: assets/book1.jpg).
+
+------------------------------------------------
+HOME PAGE BANNER
+------------------------------------------------
+banner1.jpg
+https://picsum.photos/seed/banner1/1200/400
+
+------------------------------------------------
+BOOK COVER IMAGES (used in js/data.js)
+------------------------------------------------
+book1.jpg  - The Great Escape
+https://picsum.photos/seed/book1/300/400
+
+book2.jpg  - Silent Storm
+https://picsum.photos/seed/book2/300/400
+
+book3.jpg  - Cooking Mastery
+https://picsum.photos/seed/book3/300/400
+
+book4.jpg  - Mind Power
+https://picsum.photos/seed/book4/300/400
+
+book5.jpg  - Funny Bunny
+https://picsum.photos/seed/book5/300/400
+
+book6.jpg  - Space Heroes
+https://picsum.photos/seed/book6/300/400
+
+book7.jpg  - History Untold
+https://picsum.photos/seed/book7/300/400
+
+book8.jpg  - Little Star
+https://picsum.photos/seed/book8/300/400
+
+book9.jpg  - Super Squad
+https://picsum.photos/seed/book9/300/400
+
+book10.jpg - Grow Rich
+https://picsum.photos/seed/book10/300/400
+
+------------------------------------------------
+ICONS USED
+------------------------------------------------
+No separate icon image files were used. All icons in this project
+(cart, phone, email, location, book, delivery, price, tick mark)
+are simple emoji characters typed directly in the HTML, for example:
+🛒 📞 ✉️ 📍 📚 🚚 💰 ✅
+This keeps the project simple and avoids needing extra icon files.
